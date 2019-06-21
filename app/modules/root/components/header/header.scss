@@ -1,0 +1,21 @@
+.app-header {
+  .navbar {
+    .navbar-brand {
+      margin-right: auto;
+    }
+  }
+
+  &.dark {
+    background-color: black;
+    color: #ffffff;
+
+    a {
+      color: #ffffff;
+
+      &:hover,
+      &:active {
+        color: blue;
+      }
+    }
+  }
+}
